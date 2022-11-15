@@ -1,0 +1,30 @@
+{
+  "name": "todo-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.5.0",
+    "@strapi/plugin-users-permissions": "4.5.0",
+    "@strapi/plugin-i18n": "4.5.0",
+    "better-sqlite3": "7.6.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "c89f8b33-3475-4f7f-acbc-ec83ce4f0ef3"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

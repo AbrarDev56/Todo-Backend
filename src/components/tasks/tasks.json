@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_tasks_tasks",
+  "info": {
+    "displayName": "Tasks"
+  },
+  "options": {},
+  "attributes": {
+    "task": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
