@@ -26,6 +26,12 @@
       "relation": "manyToMany",
       "target": "api::collection.collection",
       "inversedBy": "tasks"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "tasks"
     }
   }
 }

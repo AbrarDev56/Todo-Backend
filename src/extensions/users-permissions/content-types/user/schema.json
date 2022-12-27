@@ -66,7 +66,14 @@
     "collections": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::collection.collection"
+      "target": "api::collection.collection",
+      "mappedBy": "user"
+    },
+    "tasks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::task.task",
+      "mappedBy": "user"
     }
   }
 }
