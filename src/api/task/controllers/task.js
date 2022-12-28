@@ -6,7 +6,6 @@
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-// module.exports = createCoreController('api::task.task');
 module.exports = createCoreController("api::task.task", {
     async find(ctx) {
         const user = ctx.state.user;
